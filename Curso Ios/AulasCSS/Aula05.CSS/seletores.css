@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+
+
+
+article p {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 20px;
+    margin: 20px
+}
+
+h1 {
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: darkred;
+    border-color: black;
+}
+
+.p1 {
+    background-color: cadetblue;
+    color: black;
+    padding: 20px;
+    margin: 20px
+}
+
+footer {
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: darkred;
+    border-color: darkred;
+    width: 160px;
+    height: 15px;
+    position: absolute; 
+    left: 850px;
+}

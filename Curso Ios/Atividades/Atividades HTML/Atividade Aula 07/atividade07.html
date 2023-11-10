@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Forms</title>
+</head>
+
+<body style="background-color: black; color:white;">
+    <header>
+        <p>
+        <h2>Atividade Formulários</h2>
+        </p>
+        <br>
+        <br>
+
+    </header>
+    <main>
+        <article>
+            <form action="#">
+
+                <article>
+                    <fieldset>
+
+                        <legend>Informações:</legend>
+                        <label for="cNome">Nome:</label><br />
+                        <br>
+                        <input autocomplete="off" type="text" size=60 name="tNome" id="cNome" required="required"
+                            placeholder="Digite aqui seu nome!" />
+                        <br /><br />
+                        <input type="submit" value="Enviar" />
+                        <br><br>
+                        <label for="cEmail">Email:</label><br>
+                        <input type="text" size=50 name="tEmail" id="cEmail" placeholder="Ex: ios@hotmail.com"
+                            required="required" />
+                        <br /><br />
+                        <input type="submit" value="Enviar" />
+                        <br /><br />
+                    </fieldset>
+                </article>
+
+
+                <br><br>
+
+
+                <article>
+                    <fieldset>
+                        <legend>Gênero:</legend>
+                        <p>Qual é o seu gênero?</p>
+                        <input type="radio" name="genero" id="masculino" value="masculino" />
+                        <label for="masculino"> Masculino</label><br />
+                        <input type="radio" name="genero" id="feminino" value="feminino" />
+                        <label for="feminino"> Feminino</label><br />
+                        <input type="radio" name="genero" id="outros" value="outros" />
+                        <label for="outros"> Outro</label><br />
+                        <input type="radio" name="genero" id="naoDizer" value="naoDizer" />
+                        <label for="naoDizer"> Prefiro não dizer</label>
+                    </fieldset>
+                </article>
+
+
+                <br><br>
+
+
+
+                <article>
+                    <fieldset>
+                        <label for="Unidade">Qual a unidade da IOS mais próxima de você?</label>
+                        <select id="Unidade" name="Unidade">
+                            <option value="Santana">Santana – São Paulo (SP)</option>
+                            <option value="Itaquera">Itaquera – São Paulo (SP)</option>
+                            <option value="Serraria">Serraria – São Paulo (SP)</option>
+                            <option value="Jd. Santa Lúcia">Jd. Santa Lúcia – São Paulo (SP)</option>
+                            <option value="Jabaquara">Jabaquara – São Paulo (SP)</option>
+                            <option value="Pirituba">Pirituba – São Paulo (SP)</option>
+                        </select>
+                    </fieldset>
+                </article>
+            </form>
+
+        </article>
+    </main>
+
+    <br><br><br>
+    <footer>
+
+        <center> <a href="https://ios.org.br/" target="_blank" style="text-decoration: none;"></small>Instituto da
+                Oportunidade
+                Social &copy;</small></a></center>
+
+    </footer>
+
+
+</body>
+
+</html>

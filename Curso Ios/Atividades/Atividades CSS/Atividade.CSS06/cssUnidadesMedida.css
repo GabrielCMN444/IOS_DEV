@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('https://img.freepik.com/vetores-premium/fundo-de-metal-preto-e-vermelho_71775-595.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    line-height: 2em;
+
+}
+
+article {
+    background-image: url('https://www.webmotors.com.br/wp-content/uploads/2020/10/13121404/Honda-Civic-EXL-2021.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 85vw;
+    text-align: center;
+    line-height: 2em;
+    margin-right: 54px;
+
+}
+
+section {
+    background-image: url('https://img.freepik.com/vetores-premium/fundo-de-metal-preto-e-vermelho_71775-595.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.bnt1 {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.bnt2 {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+
+.dv1 {
+    font-size: 65px;
+    padding: 70px;
+    float: left;
+    margin-left: 20%;
+}
+
+.dv2 {
+    font-size: 65px;
+    padding: 70px;
+    float: right;
+    margin-right: 20%;
+}
+
+.p1 {
+    margin-bottom: 20px;
+}
+
+.p2 {
+    margin-bottom: 20px;
+}

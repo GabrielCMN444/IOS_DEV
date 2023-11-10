@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(6, 1tr);
+  grid-template-rows: repeat(6, 1tr);
+  border: 2px solid black;
+}
+
+.grids > div {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-column-end: 4;
+  grid-row-end: 5;
+  /* mas isso se aplica só pra "elemento filho" */
+  background-color: bisque;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.grid-columns {
+  color: black;
+  display: grid;
+  padding: 6px;
+  grid-row: initial;
+}
+
+.grid-columns > div {
+  background-color: black;
+  padding: 1em;
+  color: azure;
+  border: 1px solid red;
+  grid-row: 30px;
+  grid-template-columns: min-content;
+}
+
+.grid-area {
+  color: black;
+  display: grid;
+  border: 2px solid black;
+  grid-area: 40rem;
+}
+
+.grid-area > div {
+  background-color: rebeccapurple;
+  padding: 1em;
+  border: 1px solid black;
+
+ }
+
+.justify-self {
+  color: black;
+  display: grid;
+  border: 2px solid black;
+  justify-self: left;
+}
+
+.justify-self > div {
+  background-color: orange;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.align-self {
+  display: grid;
+    color: black;
+  display: grid;
+  border: 2px solid black;
+  align-self:  self-start;
+}
+
+.align-self > div {
+   display: grid;
+    color: black;
+  background-color: green;
+  border: 1px solid black;
+  align-self: last baseline;
+}
+
+.place-self {
+  display: grid;
+  place-self: 40rem;
+}
+
+.place-self > div {
+  color: black;
+  background-color: darkred;
+  border: 1px solid black;
+  padding: 1em;
+  width: 180px;
+  height: 20px;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.pa1:hover {
+    background-color: brown;
+    width: 200px;
+}
+
+.p1::selection {
+    color: white;
+    background-color: blue;
+}
+
+.p2::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+.p3::first-line {
+    background-color: yellow;
+    color: black
+}
+
+.a1 {
+    background-color: yellow;
+}
+
+.pa2:first-child {
+    background-color: #8A2BE2;
+    color: black;
+    width: 200px;
+}
+
+/* aplicando backgroud no p dentro da classe .pa3 */
+.pa3>p:last-child {
+    background-color: red;
+    color: black;
+    width: 220px;
+}
+
+.a2:link {
+    background: orange;
+    color: black;
+}
+
+.d3 {
+    float: right;
+}

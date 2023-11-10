@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+:root {
+    --cor-prim: red;
+}
+
+h2 {
+    font-family: 'Croissant One', cursive;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    margin-left: 37%;
+}
+
+@media (max-width: 500px) {
+
+
+    img {
+        width: 100vw;
+        display: block;
+
+    }
+
+}

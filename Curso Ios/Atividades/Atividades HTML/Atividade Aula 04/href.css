@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+
+.menu {
+    background-color: grey;
+    height: 100px;
+
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+    padding: 213px;
+    font-size: 72px;
+}
+
+.img1 {
+    margin: 50px;
+
+}
+
+
+
+
+

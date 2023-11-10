@@ -1,0 +1,26 @@
+.dv1 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    color: black;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    margin-left: 45%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.dv1:hover {
+    background-color: white;
+    color: rebeccapurple;
+    border: 2px solid black;
+}

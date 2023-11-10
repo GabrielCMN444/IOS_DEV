@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.conteiner {
+    border: 1px solid blue;
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+.box {
+    border: 1px solid yellow;
+    margin: 3px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+#cx1 {
+    order: 1;
+}
+
+#cx2 {
+    order: 1;
+}
+
+#cx3 {
+    order: 1;
+}

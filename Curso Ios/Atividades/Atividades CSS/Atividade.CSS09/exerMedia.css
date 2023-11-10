@@ -1,0 +1,43 @@
+@charset "utf-08";
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+
+@media (max-width: 350px) {
+
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    p {
+        padding: 20px;
+        text-align: justify;
+    }
+
+
+}
+
+@media (max-width: 600px) {}

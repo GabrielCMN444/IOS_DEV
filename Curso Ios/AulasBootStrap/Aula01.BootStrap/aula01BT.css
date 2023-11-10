@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.th1 {
+    color: white;
+    background-color: blueviolet;
+}
+
+.th2 {
+    background-color: grey;
+    color: black;
+}
+
+table {
+    float: inline-start;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 40%;
+    height: 400px;
+    font-size: 25px;
+}
+
+
+.tb1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*
+.a1 {
+    border: 1px solid black;
+    background-color: darkred;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40%;
+    color: white;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+} 
+/*
